@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Egg.appearance.views.MainPage">
+  
+  <StackLayout VerticalOptions="Start">
+    <Button Text="Register in/Register Out"
+            BorderRadius="5"
+            Clicked="OnRegisterButtonClick" />
+  </StackLayout>
+</ContentPage>
